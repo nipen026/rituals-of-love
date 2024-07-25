@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Monallesia';
+    src: url('../public/assets/fonts/MonallesiaScript-4BgXp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Muli';
+    src: url('../public/assets/fonts/Muli-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Muli';
+    src: url('../public/assets/fonts/Muli-ExtraLight.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Muli';
+    src: url('../public/assets/fonts/Muli-Light.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Muli';
+    src: url('../public/assets/fonts/Muli-SemiBold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Muli';
+    src: url('../public/assets/fonts/Muli.ttf') format('truetype');
+  }
