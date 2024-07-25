@@ -13,14 +13,14 @@ const Services = () => {
         <div className="container">
           <div className="bg-[#edf3f8] p-[50px]">
             <div>
-              <p className="text-[20px] text-center text-[#738ea5]">
+              <p className="text-[20px] text-center text-[#738ea5] animate__animated wow   animate__zoomIn">
                 Our Services
               </p>
-              <h2 className="text-[40px] text-center py-5 font-bold text-[#002642]">
+              <h2 className="text-[40px] text-center py-5 font-bold text-[#002642] animate__animated wow   animate__zoomIn">
                 WHAT WE CAN DO
               </h2>
             </div>
-            <div className="flex justify-center items-center gap-[30px]">
+            <div className="flex justify-center items-center gap-[30px] animate__animated wow   animate__zoomIn">
               <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
               <div>
                 <Image
@@ -33,7 +33,7 @@ const Services = () => {
               <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
             </div>
             <div className="flex justify-between mt-5">
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">
@@ -46,7 +46,7 @@ const Services = () => {
                     <p className="text-[16px]  text-center text-[#848892]">Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.</p>
                 </div>
               </div>
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">
@@ -59,7 +59,7 @@ const Services = () => {
                     <p className="text-[16px]  text-center text-[#848892]">Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.</p>
                 </div>
               </div>
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">
@@ -74,7 +74,7 @@ const Services = () => {
               </div>
             </div>
             <div className="flex justify-between mt-5">
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">
@@ -87,7 +87,7 @@ const Services = () => {
                     <p className="text-[16px]  text-center text-[#848892]">Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.</p>
                 </div>
               </div>
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">
@@ -100,7 +100,7 @@ const Services = () => {
                     <p className="text-[16px]  text-center text-[#848892]">Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.</p>
                 </div>
               </div>
-              <div className="w-[30%] bg-white p-[30px] rounded-lg">
+              <div className="w-[30%] bg-white p-[30px] rounded-lg animate__rotateInUpLeft  animate__animated wow  ">
                 <div className="flex items-center justify-center gap-4 ">
                   <div className="w-[40px] h-[1px] bg-[#738ea5]"></div>
                   <div className="text-[#738ea5] text-[30px]">

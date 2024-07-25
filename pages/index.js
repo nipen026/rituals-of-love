@@ -8,8 +8,29 @@ import Description from "@/components/Description";
 import Services from "@/components/Services";
 import Celebrate from "@/components/Celebrate";
 import Footer from "@/common/Footer";
+import { useEffect } from "react";
 
 export default function Home() {
+  // useEffect(() => {
+  //   const init  = async () => {
+  //     if (typeof window !== 'undefined') {
+  //       const   = (await import(' js')). ;
+  //       new  ().init();
+  //     }
+  //   };
+
+  //   init ();
+  // }, []);
+  useEffect(() => {
+    const initWOW = async () => {
+      if (typeof window !== 'undefined') {
+        const WOW = (await import('wowjs')).WOW;
+        new WOW().init();
+      }
+    };
+
+    initWOW();
+  }, []);
   return (
     <main className={""}>
       <Header />
