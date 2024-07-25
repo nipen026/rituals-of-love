@@ -12,9 +12,9 @@ const Header = () =>{
         <div className="bg-[#fffefd] flex items-center h-[70px] w-full sticky top-0 z-[100]">
             <div className="container">
                 <div className="flex items-center justify-between">
-                <div className="w-[100px] h-[60px]">
+                <div className="w-[40px] h-[50px]">
                     <Link href={'/'}>
-                    <Image src={'/assets/images/logo.png'} className=" w-full h-full fit-cover" width={120} height={50} />
+                    <Image src={'/assets/images/main-logo.png'} className=" w-full h-full fit-cover" width={100} height={50} alt="logo"/>
                     </Link>
                 </div>
                 <div>

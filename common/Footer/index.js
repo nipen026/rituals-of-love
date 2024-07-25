@@ -1,67 +1,53 @@
 import { MdEmail } from "react-icons/md";
 import { IoCall,IoLocation  } from "react-icons/io5";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <>
-      <footer class="text-gray-600 body-font bg-[#edf3f8] py-3">
-        <div class="container border-[1px] rounded-lg border-[#cde0ef]  px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
-              <span class="ml-3 text-xl">Tailblocks</span>
+      <footer className="text-gray-600 body-font bg-[#edf3f8] py-3">
+        <div className="container border-[1px] rounded-lg border-[#cde0ef]  px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <Image src={'/assets/images/Background.png'} width={200} height={150} alt="logo"/>
             </a>
-            <p class="mt-2 text-sm text-gray-500">
-              Air plant banjo lyft occupy retro adaptogen indego
-            </p>
           </div>
-          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 class=" text-[20px] font-semibold text-[#002642]  mb-3">
+          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className=" text-[20px] font-semibold text-[#002642]  mb-3">
               INFORMATION
               </h2>
-              <nav class="list-none mb-10">
+              <nav className="list-none mb-10">
                 <li className="pb-2">
-                  <a href="/" class="text-gray-600 hover:text-gray-800">Home</a>
+                  <a href="/" className="text-gray-600 hover:text-gray-800">Home</a>
                 </li>
                 <li className="pb-2">
-                  <a href="/About" class="text-gray-600 hover:text-gray-800">About Us</a>
+                  <a href="/About" className="text-gray-600 hover:text-gray-800">About Us</a>
                 </li >
                 <li className="pb-2">
-                  <a href="/Gallery" class="text-gray-600 hover:text-gray-800">Our Gallery</a>
+                  <a href="/Gallery" className="text-gray-600 hover:text-gray-800">Our Gallery</a>
                 </li>
                 <li className="pb-2">
-                  <a href="Contactus" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                  <a href="Contactus" className="text-gray-600 hover:text-gray-800">Contact Us</a>
                 </li>
               </nav>
             </div>
-            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 class=" text-[20px] font-semibold text-[#002642]  mb-3">
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className=" text-[20px] font-semibold text-[#002642]  mb-3">
               CONTACT
               </h2>
-              <nav class="list-none mb-10">
+              <nav className="list-none mb-10">
                 <li className="pb-2">
-                  <a class=" text-gray-600 hover:text-gray-800">Would you have any enquiries.Please feel free to contuct us</a>
+                  <a className=" text-gray-600 hover:text-gray-800">Would you have any enquiries.Please feel free to contuct us</a>
                 </li>
                 <li className="pb-2">
-                  <a class="flex items-center gap-2 text-gray-600 hover:text-gray-800"><MdEmail/> info.ritualsoflove@gmail.com</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><MdEmail/> info.ritualsoflove@gmail.com</a>
                 </li>
                 <li className="pb-2">
-                  <a class="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoCall/> +91 84698-38559</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoCall/> +91 84698-38559</a>
                 </li>
                 <li className="pb-2">
-                  <a class="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoLocation /> Surat , Gujrat , India</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoLocation /> Surat , Gujrat , India</a>
                 </li>
               </nav>
             </div>
