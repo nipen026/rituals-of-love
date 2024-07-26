@@ -6,8 +6,8 @@ const AboutBanner = () => {
       <div>
         <div className=""></div>
         <div className="container py-[50px]">
-          <div className="flex">
-            <div className="w-[50%] flex justify-center relative">
+          <div className="grid grid-cols-2 max-[952px]:grid-cols-1">
+            <div className=" max-[952px]:w-full flex justify-center relative">
               <div className="absolute bottom-[20px] -left-[30px]">
                 <Image
                   src={"/assets/images/shape.png"}
@@ -25,7 +25,7 @@ const AboutBanner = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[50%]">
+            <div className=" max-[952px]:w-full">
               <div>
                 <Image
                   src={"/assets/images/thumb.png"}

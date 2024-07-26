@@ -7,10 +7,12 @@ import Footer from "@/common/Footer";
 const Gallery = () => {
   return (
     <>
-    <Header/>
+   <div className="overflow-hidden">
+   <Header/>
     <Banner title="Our Sweet Moments"/>
      <GalleryPics/>
      <Footer/>
+  </div>
     </>
   );
 };
