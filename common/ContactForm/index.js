@@ -2,7 +2,12 @@ import Image from "next/image";
 import { FaRegCircle } from "react-icons/fa";
 import * as Yup from "yup";
 import { Formik, Field, Form, ErrorMessage } from "formik";
+import toast, { Toaster } from 'react-hot-toast';
+import axios from "axios";
+
+
 const ContactForm = () => {
+  const baseURL = process.env.NEXT_PUBLIC_API_BASE_URL;
   const validationSchema = Yup.object({
     firstName: Yup.string().required("First Name is required"),
     lastName: Yup.string().required("Last Name is required"),
@@ -16,13 +21,25 @@ const ContactForm = () => {
     plans: Yup.string().required("Please select a plan"),
   });
 
+  console.log(process.env.NEXT_PUBLIC_BASE_URL)
   const handleSubmit = (values) => {
-    console.log("Form data:", values);
+    axios.post(`${baseURL}/api/inquiries`,values).then((res)=>{
+      console.log(res);
+      if(res.status === 201){
+        toast.success('We Will Contact Soon !!');
+        setTimeout(()=>{
+            window.location.reload()
+        },[2000])
+      }
+    }).catch((err)=>{
+        console.log(err);
+    })
     // Here you can send data to the server or perform other actions
   };
   return (
     <>
       <div className="py-[50px] relative">
+        <Toaster/>
         <div className="absolute bottom-0 h-auto max-[1024px]:hidden">
           <Image
             src={"/assets/images/footer-1.png"}
