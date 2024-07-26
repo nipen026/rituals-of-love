@@ -9,6 +9,7 @@ import Services from "@/components/Services";
 import Celebrate from "@/components/Celebrate";
 import Footer from "@/common/Footer";
 import { useEffect } from "react";
+import WhatsAppButton from "@/common/WhatsAppButton";
 
 export default function Home() {
   // useEffect(() => {
@@ -33,6 +34,7 @@ export default function Home() {
   }, []);
   return (
     <main className={"overflow-hidden"}>
+      <WhatsAppButton/>
       <Header />
       <Banner title={'Planning Your Everlasting Memories'}/>
       <Description />
