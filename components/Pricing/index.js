@@ -24,8 +24,8 @@ const Pricing = () => {
           <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
         </div>
         <div className="grid  grid-cols-3 max-[1024px]:grid-cols-1 max-[952px]:grid-cols-1 gap-4 pt-[50px] p-4">
-          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-5">
-            <div className="absolute -top-[50px] left-[35%]  w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
+          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-5 animate__animated wow animate__bounceInUp">
+            <div className="absolute -top-[50px] left-[35%] max-lg:left-[42%] max-[562px]:left-[35%]  w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
                 src={"/assets/images/img-2.jpg"}
                 width={70}
@@ -57,8 +57,8 @@ const Pricing = () => {
               </ul>
             </div>
           </div>
-          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10">
-            <div className="absolute -top-[50px] left-[35%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
+          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10 animate__animated wow animate__bounceInUp">
+            <div className="absolute -top-[50px] left-[35%] max-lg:left-[42%] max-[562px]:left-[35%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
                 src={"/assets/images/img-2.jpg"}
                 width={70}
@@ -96,8 +96,8 @@ const Pricing = () => {
               </ul>
             </div>
           </div>
-          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10">
-            <div className="absolute -top-[50px] left-[35%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
+          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10 animate__animated wow animate__bounceInUp">
+            <div className="absolute -top-[50px] left-[35%]  max-[562px]:left-[35%] max-lg:left-[42%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
                 src={"/assets/images/img-2.jpg"}
                 width={70}

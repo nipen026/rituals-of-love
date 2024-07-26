@@ -14,14 +14,14 @@ const Description = () => {
             <div className="bg-description-image">
               <div className="w-full h-full">
                 <img
-                  src="/assets/images/dharmik-1.jpg"
+                  src="/assets/images/dharmik-1.JPG"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="wow bg-description-image-2 animate__animated wow   animate__fadeIn" >
                 <div className="w-full h-full">
                   <img
-                    src="/assets/images/dharmik-2.jpg"
+                    src="/assets/images/dharmik-2.JPG"
                     className="w-full h-full object-cover"
                   />
                 </div>
