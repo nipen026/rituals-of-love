@@ -22,23 +22,23 @@ const GalleryPics = () => {
         <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
       </div>
       <div className="container py-[30px]">
-        <div className="flex max-[1024px]:flex-wrap gap-4 my-5">
-          <div className="w-[25%] max-[1024px]:w-full gap-4">
-            <div className="my-3">
+        <div className="flex max-lg:flex-wrap  gap-4  my-5">
+          <div className="w-[25%] max-lg:w-[45%] max-md:w-full gap-4">
+            <div className="my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full object-cover  rounded-lg"
                 src="/assets/images/sahil-1.jpg"
                 alt=""
               />
             </div>
-            <div className="h-[200px] w-[300px] max-[1024px]:w-full my-3">
+            <div className="h-[200px] w-[300px] max-[1024px]:w-full my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-full w-full max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-2.jpg"
                 alt=""
               />
             </div>
-            <div>
+            <div className="animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-3.jpg"
@@ -46,68 +46,68 @@ const GalleryPics = () => {
               />
             </div>
           </div>
-          <div className="w-[25%] max-[1024px]:w-full gap-4">
-            <div className="h-[200px] max-[1024px]:w-full my-3">
+          <div className="w-[25%] max-lg:w-[45%] max-md:w-full gap-4">
+            <div className="h-[200px] max-[1024px]:w-full my-3 animate__flipInY animate__animated wow">
               <img
                 className="w-full object-cover h-full rounded-lg"
-                src="/assets/images/harshil-1.jpg"
+                src="/assets/images/harshil-1.JPG"
                 alt=""
               />
             </div>
-            <div className="h-[400px] my-3">
+            <div className="h-[400px] my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-full object-cover max-w-full rounded-lg"
-                src="/assets/images/harshil-3.jpg"
+                src="/assets/images/harshil-3.JPG"
                 alt=""
               />
             </div>
-            <div className="h-[300px] max-[1024px]:w-full">
+            <div className="h-[300px] max-[1024px]:w-full animate__flipInY animate__animated wow">
               <img
                 className=" object-cover h-full  max-w-full rounded-lg"
-                src="/assets/images/harshil-2.jpg"
+                src="/assets/images/harshil-2.JPG"
                 alt=""
               />
             </div>
           </div>
-          <div className="w-[25%] max-[1024px]:w-full gap-4">
-            <div className="my-3">
+          <div className="w-[25%] max-lg:w-[45%] max-md:w-full gap-4">
+            <div className="my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="/assets/images/dharmik-1.jpg"
+                src="/assets/images/dharmik-1.JPG"
                 alt=""
               />
             </div>
-            <div className="my-3">
+            <div className="my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="/assets/images/dharmik-3.jpg"
+                src="/assets/images/dharmik-3.JPG"
                 alt=""
               />
             </div>
-            <div>
+            <div className="animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="/assets/images/dharmik-2.jpg"
+                src="/assets/images/dharmik-2.JPG"
                 alt=""
               />
             </div>
           </div>
-          <div className="w-[25%] max-[1024px]:w-full gap-4">
-            <div className="my-3">
+          <div className="w-[25%] max-lg:w-[45%] max-md:w-full gap-4">
+            <div className="my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="/assets/images/vatsal-1.jpg"
+                src="/assets/images/vatsal-1.JPG"
                 alt=""
               />
             </div>
-            <div className="my-3">
+            <div className="my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/vatsal-2.jpeg"
                 alt=""
               />
             </div>
-            <div>
+            <div className="animate__flipInY animate__animated wow">
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/vatsal-3.jpeg"

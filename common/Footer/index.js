@@ -7,13 +7,13 @@ const Footer = () => {
     <>
       <footer className="text-gray-600 body-font bg-[#edf3f8] py-3">
         <div className="container border-[1px] rounded-lg border-[#cde0ef]  px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <div className=" lg:w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <Image src={'/assets/images/Background.png'} width={200} height={150} alt="logo"/>
+              <Image src={'/assets/images/Background.png'} width={200} height={150} alt="logo" className="max-lg:w-[100px] "/>
             </a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <div className="xl:w-1/3 md:w-1/2 sm:w-1/1 w-full px-4">
               <h2 className=" text-[20px] font-semibold text-[#002642]  mb-3">
               INFORMATION
               </h2>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <div className="xl:w-1/3 md:w-1/2 sm:w-1/1 w-full px-4">
               <h2 className=" text-[20px] font-semibold text-[#002642]  mb-3">
               CONTACT
               </h2>
@@ -51,9 +51,6 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            
-           
-           
           </div>
         </div>
         <div class="bg-gray-100">
