@@ -6,12 +6,10 @@ export default function Document() {
       <Head>
         <title>Rituals of Love</title>
       </Head>
-      
       <body>
         <Main />
         <NextScript />
       </body>
-     
     </Html>
   );
 }

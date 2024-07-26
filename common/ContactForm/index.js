@@ -5,13 +5,13 @@ const ContactForm = () => {
   return (
     <>
       <div className="py-[50px] relative">
-        <div className="absolute bottom-0 h-auto">
+        <div className="absolute bottom-0 h-auto max-[1024px]:hidden">
             <Image src={'/assets/images/footer-1.png'} alt="footer-1" width={350} height={350} className="object-cover"/>
         </div>
-        <div className="absolute top-[50px] right-[170px] h-auto">
+        <div className="absolute top-[50px] right-[170px] h-auto max-[1024px]:hidden">
             <Image src={'/assets/images/footer-2.png'} alt="footer-1" width={200} height={200} className="object-cover"/>
         </div>
-        <div className="contact-form">
+        <div className="contact-form ">
           <div className="bg-white h-full py-5">
             <div>
               <div className="">
@@ -24,16 +24,16 @@ const ContactForm = () => {
                     alt="footer-title"
                   />
                 </div>
-                <h2 className="text-[40px] text-center py-5 font-bold text-[#002642]">
+                <h2 className="text-[40px] max-[1024px]:text-[32px] text-center py-5 font-bold text-[#002642]">
                   CONTACT US
                 </h2>
               </div>
               <div className="flex pb-5 justify-center text-[#002642] items-center gap-[30px]">
-                <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
+                <div className="w-[100px] max-[1024px]:w-[50px] h-[1px] bg-[#738ea5]"></div>
                 <div>
                   <FaRegCircle />
                 </div>
-                <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
+                <div className="w-[100px] max-[1024px]:w-[50px] h-[1px] bg-[#738ea5]"></div>
               </div>
             </div>
             <div className="container">

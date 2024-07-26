@@ -6,8 +6,8 @@ const Description = () => {
       <div>
         <div className=""></div>
         <div className="container py-[50px]">
-         <div className="flex">
-         <div className="w-[50%] flex justify-center relative">
+         <div className="grid grid-cols-2 max-[952px]:grid-cols-1">
+         <div className=" max-[952px]:w-full max-[1024px]:w-full flex justify-center relative">
             <div className="absolute bottom-[20px] -left-[30px]" data-aos="fade-right">
                 <Image src={'/assets/images/shape.png'} width={150} height={150} alt="shape"/>
             </div>
@@ -28,7 +28,7 @@ const Description = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className=" max-[952px]:w-full">
             <div data-aos="fade-up">
                 <Image src={'/assets/images/thumb.png'} width={'100'} height={'100'}/>
             </div>

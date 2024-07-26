@@ -32,7 +32,7 @@ export default function Home() {
     initWOW();
   }, []);
   return (
-    <main className={""}>
+    <main className={"overflow-hidden"}>
       <Header />
       <Banner title={'Planning Your Everlasting Memories'}/>
       <Description />

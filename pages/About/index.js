@@ -9,12 +9,14 @@ import Footer from "@/common/Footer";
 const About = () =>{
     return(
         <>
+        <div className="overflow-hidden">
         <Header/>
         <Banner title="About Our Services"/>
         <AboutBanner/>
         <Provide/>
         <Pricing/>
         <Footer/>
+        </div>
         </>
     )
 }

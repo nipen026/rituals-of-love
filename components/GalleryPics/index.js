@@ -5,7 +5,7 @@ const GalleryPics = () => {
     <>
       <div className="mt-5">
         <p className="text-[20px] text-center text-[#738ea5]">Gallery</p>
-        <h2 className="text-[40px] text-center py-5 font-bold text-[#002642]">
+        <h2 className="text-[40px] max-[1024px]:text-[26px] text-center py-5 font-bold text-[#002642]">
           OUR GALLERY
         </h2>
       </div>
@@ -22,8 +22,8 @@ const GalleryPics = () => {
         <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
       </div>
       <div className="container py-[30px]">
-        <div className="flex gap-4 my-5">
-          <div className="w-[25%] gap-4">
+        <div className="flex max-[1024px]:flex-wrap gap-4 my-5">
+          <div className="w-[25%] max-[1024px]:w-full gap-4">
             <div className="my-3">
               <img
                 className="h-auto max-w-full object-cover  rounded-lg"
@@ -31,7 +31,7 @@ const GalleryPics = () => {
                 alt=""
               />
             </div>
-            <div className="h-[200px] w-[300px] my-3">
+            <div className="h-[200px] w-[300px] max-[1024px]:w-full my-3">
               <img
                 className="h-full w-full max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-2.jpg"
@@ -46,10 +46,10 @@ const GalleryPics = () => {
               />
             </div>
           </div>
-          <div className="w-[25%] gap-4">
-            <div className="h-[200px] my-3">
+          <div className="w-[25%] max-[1024px]:w-full gap-4">
+            <div className="h-[200px] max-[1024px]:w-full my-3">
               <img
-                className=" max-w-full  h-full rounded-lg"
+                className="w-full object-cover h-full rounded-lg"
                 src="/assets/images/harshil-1.jpg"
                 alt=""
               />
@@ -61,7 +61,7 @@ const GalleryPics = () => {
                 alt=""
               />
             </div>
-            <div className="h-[300px]">
+            <div className="h-[300px] max-[1024px]:w-full">
               <img
                 className=" object-cover h-full  max-w-full rounded-lg"
                 src="/assets/images/harshil-2.jpg"
@@ -69,7 +69,7 @@ const GalleryPics = () => {
               />
             </div>
           </div>
-          <div className="w-[25%] gap-4">
+          <div className="w-[25%] max-[1024px]:w-full gap-4">
             <div className="my-3">
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -92,7 +92,7 @@ const GalleryPics = () => {
               />
             </div>
           </div>
-          <div className="w-[25%] gap-4">
+          <div className="w-[25%] max-[1024px]:w-full gap-4">
             <div className="my-3">
               <img
                 className="h-auto max-w-full rounded-lg"

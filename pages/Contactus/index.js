@@ -7,10 +7,12 @@ import Footer from "@/common/Footer";
 const ConatactUs = () =>{
     return(
         <>
+        <div className="overflow-hidden">
         <Header/>
         <Banner title="Contact Our teams"/>
         <ContactForm/>
         <Footer/>
+        </div>
         </>
     )
 }
