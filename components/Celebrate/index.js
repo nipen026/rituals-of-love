@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Celebrate = () =>{
     return(
@@ -13,7 +14,9 @@ const Celebrate = () =>{
                         <h3 className="text-white text-[50px] max-[1024px]:text-[36px] font-bold text-center my-3">Lets Celebrate Your Love</h3>
                     </div>
                     <div className="text-center wow animate__jackInTheBox animate__animated" >
+                        <Link href={'/Contactus'}>
                         <button style={{transition:'all 0.5s'}} className="text-[#002642] hover:bg-[#002642] hover:text-white w-[170px] font-semibold h-[60px] bg-[white] ">Contact Us</button>
+                        </Link>
                     </div>
                 </div>
             </div>

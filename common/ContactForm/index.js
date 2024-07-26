@@ -40,16 +40,16 @@ const ContactForm = () => {
     <>
       <div className="py-[50px] relative">
         <Toaster/>
-        <div className="absolute bottom-0 h-auto max-[1024px]:hidden">
+        <div className="absolute bottom-0 h-auto max-lg:z-[100] max-lg:w-[300px] max-[562px]:hidden">
           <Image
             src={"/assets/images/footer-1.png"}
             alt="footer-1"
             width={350}
             height={350}
-            className="object-cover"
+            className="object-cover max-lg:w-full"
           />
         </div>
-        <div className="absolute top-[50px] right-[170px] h-auto max-[1024px]:hidden">
+        <div className="absolute top-[50px] max-xl:right-[100px] right-[170px] h-auto max-[562px]:hidden">
           <Image
             src={"/assets/images/footer-2.png"}
             alt="footer-1"
