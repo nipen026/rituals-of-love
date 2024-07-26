@@ -22,7 +22,7 @@ const Banner = (props) => {
             <h1 className={`text-[50px] text-[#002642] max-[1024px]:text-[30px] max-[1024px]:leading-[60px]  text-center pt-[30px] font-cursive`} data-aos="zoom-in">
               {props.title}
             </h1>
-            <p className="text-[18px] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
+            <p className="text-[18px] text-[#002642] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
               Let’s Make Your Day Memorable.Your Successful Wedding is Our Job.
             </p>
           </div>
@@ -32,7 +32,7 @@ const Banner = (props) => {
             <h1 className="text-[50px] text-[#002642] max-[1024px]:text-[30px] max-[1024px]:leading-[60px] text-center pt-[30px] font-cursive" data-aos="zoom-in">
             {props.title}
             </h1>
-            <p className="text-[18px] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
+            <p className="text-[18px] text-[#002642] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
               Let’s Make Your Day Memorable.Your Successful Wedding is Our Job.
             </p>
           </div>
@@ -42,7 +42,7 @@ const Banner = (props) => {
             <h1 className="text-[50px] text-[#002642] max-[1024px]:text-[30px] max-[1024px]:leading-[60px] text-center pt-[30px] font-cursive" data-aos="zoom-in">
             {props.title}
             </h1>
-            <p className="text-[18px] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
+            <p className="text-[18px] text-[#002642] max-[1024px]:text-[16px] text-center my-4 font-[500]" data-aos="zoom-in">
               Let’s Make Your Day Memorable.Your Successful Wedding is Our Job.
             </p>
           </div>
