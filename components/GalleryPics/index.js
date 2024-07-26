@@ -16,6 +16,7 @@ const GalleryPics = () => {
             src={"/assets/images/section-title.png"}
             width={76}
             height={56}
+            
             alt="title"
           />
         </div>
