@@ -1,15 +1,45 @@
 import Image from "next/image";
 import { FaRegCircle } from "react-icons/fa";
-
+import * as Yup from "yup";
+import { Formik, Field, Form, ErrorMessage } from "formik";
 const ContactForm = () => {
+  const validationSchema = Yup.object({
+    firstName: Yup.string().required("First Name is required"),
+    lastName: Yup.string().required("Last Name is required"),
+    email: Yup.string()
+      .email("Invalid email address")
+      .required("Email is required"),
+    contactNumber: Yup.string()
+      .matches(/^[0-9]+$/, "Contact Number must be a number")
+      .required("Contact Number is required"),
+    address: Yup.string().required("Address is required"),
+    plans: Yup.string().required("Please select a plan"),
+  });
+
+  const handleSubmit = (values) => {
+    console.log("Form data:", values);
+    // Here you can send data to the server or perform other actions
+  };
   return (
     <>
       <div className="py-[50px] relative">
         <div className="absolute bottom-0 h-auto max-[1024px]:hidden">
-            <Image src={'/assets/images/footer-1.png'} alt="footer-1" width={350} height={350} className="object-cover"/>
+          <Image
+            src={"/assets/images/footer-1.png"}
+            alt="footer-1"
+            width={350}
+            height={350}
+            className="object-cover"
+          />
         </div>
         <div className="absolute top-[50px] right-[170px] h-auto max-[1024px]:hidden">
-            <Image src={'/assets/images/footer-2.png'} alt="footer-1" width={200} height={200} className="object-cover"/>
+          <Image
+            src={"/assets/images/footer-2.png"}
+            alt="footer-1"
+            width={200}
+            height={200}
+            className="object-cover"
+          />
         </div>
         <div className="contact-form ">
           <div className="bg-white h-full py-5">
@@ -36,7 +66,7 @@ const ContactForm = () => {
                 <div className="w-[100px] max-[1024px]:w-[50px] h-[1px] bg-[#738ea5]"></div>
               </div>
             </div>
-            <div className="container">
+            {/* <div className="container">
               <div className="relative pb-4">
                 <input
                   type="text"
@@ -108,7 +138,125 @@ const ContactForm = () => {
                   Submit
                 </button>
               </div>
-            </div>
+            </div> */}
+            <Formik
+              initialValues={{
+                firstName: "",
+                lastName: "",
+                email: "",
+                contactNumber: "",
+                address: "",
+                plans: "",
+              }}
+              validationSchema={validationSchema}
+              onSubmit={handleSubmit}
+            >
+              <Form className="container">
+                <div className="relative pb-4">
+                  <Field
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First Name"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="firstName"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="relative pb-4">
+                  <Field
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last Name"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="lastName"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="relative pb-4">
+                  <Field
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="your@example.com"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="relative pb-4">
+                  <Field
+                    type="text"
+                    id="contactNumber"
+                    name="contactNumber"
+                    placeholder="Contact Number"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="contactNumber"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="relative pb-4">
+                  <Field
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Block No., Area, City, State, Country"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="address"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="plans"
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                  >
+                    Select Plan:
+                  </label>
+                  <Field
+                    as="select"
+                    id="plans"
+                    name="plans"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  >
+                    <option value="">Select a plan</option>
+                    <option value="basic">Basic</option>
+                    <option value="premium">Advance</option>
+                    <option value="destination">Luxury</option>
+                  </Field>
+                  <ErrorMessage
+                    name="plans"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="flex items-center justify-center pt-3">
+                  <button
+                    style={{ transition: "all 0.5s" }}
+                    className="bg-[#86a0b6] hover:bg-[#002642] text-white font-bold py-[15px] px-[40px] focus:outline-none focus:shadow-outline"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </Form>
+            </Formik>
           </div>
         </div>
       </div>
