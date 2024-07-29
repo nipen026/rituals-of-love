@@ -29,7 +29,7 @@ const Header = () =>{
                     <ul className="flex gap-3">
                         <li className="text-[20px] text-[#86a0b6]"><a href="/"><FaFacebook/></a></li>
                         <li className="text-[20px] text-[#86a0b6]"><a href="/"><RiInstagramFill/></a></li>
-                        <li className="text-[20px] text-[#86a0b6]"><a href="/"><RiWhatsappFill/></a></li>
+                        <li className="text-[20px] text-[#86a0b6]"><a href="https://wa.me/+918469838559?text=Hello%20I%20am%20intersted%20in%20your%20sevices" target="_blank"><RiWhatsappFill/></a></li>
                     </ul>
                 </div>
                 <div className="hidden max-[1024px]:block">
