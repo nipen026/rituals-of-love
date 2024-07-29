@@ -38,16 +38,9 @@ const AboutBanner = () => {
                   Planner of Your Perfect Wedding
                 </h2>
                 <p className="my-3 text-[#848892] text-[16px] animate__animated wow   animate__lightSpeedInRight">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using
+                Our comprehensive services include venue selection, catering, floral design, photography, and more. We work closely with you to understand your preferences and bring your dream wedding to life. With our extensive network of trusted vendors and our creative expertise, we guarantee a seamless and stress-free planning process. Let us make your wedding day a beautiful and memorable celebration of love and joy. Contact us today to start planning the wedding of your dreams.
                 </p>
-                <p className="my-5 text-[#848892] text-[16px] animate__animated wow   animate__lightSpeedInRight">
-                  Content here, content here', making it look like readable
-                  English. Many desktop publishing packages and web page editors
-                  now use Lorem Ipsum as their default model text.
-                </p>
+               
               </div>
             </div>
           </div>
