@@ -14,11 +14,11 @@ export default function Document() {
         <link rel="canonical" href="https://www.rituals-of-love.in" />
         <meta
           name="description"
-          content="Rituals of Love offers expert wedding planning services in Surat. Our experienced wedding planners will help you create the perfect wedding, from venue selection to coordination. Contact us today!"
+          content="Rituals of Love is the best wedding planning service in Surat. Our experienced wedding planners provide comprehensive solutions, from venue selection to coordination, ensuring your special day is flawless. Contact us today to plan the perfect wedding in Surat!"
         />
         <meta
           name="keywords"
-          content="Rituals of Love, wedding planning Surat, wedding planners Surat, Surat wedding services, wedding coordination, wedding venues Surat, wedding decorations, wedding catering Surat"
+          content="Rituals of Love, best wedding planners Surat, wedding planning services Surat, wedding coordination Surat, wedding venue selection Surat"
         />
         <meta
           property="og:title"
@@ -37,11 +37,11 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Rituals of Love | Wedding Planners in Surat | Expert Wedding Planning Services"
+          content="Rituals of Love | Wedding Planners in Surat | Best Wedding Planner"
         />
         <meta
           name="twitter:description"
-          content="Rituals of Love offers expert wedding planning services in Surat. Our experienced wedding planners will help you create the perfect wedding, from venue selection to coordination. Contact us today!"
+          content="Best of the wedding planner in surat!"
         />
         <meta
           name="twitter:image"
