@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Description = () => {
   return (
@@ -36,8 +37,12 @@ const Description = () => {
                 <h2 className="text-[40px] py-5 font-bold text-[#002642] animate__animated wow   animate__flipInX">
                 Planner of Your Perfect Wedding
                 </h2>
-                <p className="my-3 text-[#848892] text-[16px] animate__animated wow   animate__lightSpeedInRight">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                <p className="my-5 text-[#848892] text-[16px] animate__animated wow   animate__lightSpeedInRight">Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                <p className="my-3 text-[#848892] text-[16px] animate__animated wow   animate__lightSpeedInRight">Your wedding day is one of the most important moments of your life, and our expert wedding planning services are here to ensure it is perfect in every way. We specialize in creating personalized and unforgettable wedding experiences, tailored to your unique vision. From the initial consultation to the final send-off, our dedicated team handles every detail with precision and care, allowing you to focus on enjoying your special day.</p>
+                <div className=" wow animate__jackInTheBox animate__animated mt-5" >
+                        <Link href={'/About'}>
+                        <button style={{transition:'all 0.5s'}} className="hover:text-[#002642] bg-[#002642] text-white w-[170px] font-semibold h-[60px] hover:bg-[white] hover:border-2 hover:border-[#002642] hover:rounded-lg">More Information</button>
+                        </Link>
+                    </div>
             </div>
           </div>
          </div>

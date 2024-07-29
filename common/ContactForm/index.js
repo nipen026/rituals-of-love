@@ -2,11 +2,12 @@ import Image from "next/image";
 import { FaRegCircle } from "react-icons/fa";
 import * as Yup from "yup";
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
-
+import { useState } from "react";
 
 const ContactForm = () => {
+  const [loading,setLoading] = useState(false)
   const baseURL = process.env.NEXT_PUBLIC_API_BASE_URL;
   const validationSchema = Yup.object({
     firstName: Yup.string().required("First Name is required"),
@@ -17,29 +18,35 @@ const ContactForm = () => {
     contactNumber: Yup.string()
       .matches(/^[0-9]+$/, "Contact Number must be a number")
       .required("Contact Number is required"),
+    weddingDate:Yup.string().required("Wedding Date is required"),
     address: Yup.string().required("Address is required"),
-    plans: Yup.string().required("Please select a plan"),
+    plan: Yup.string().required("Please select a plan"),
   });
 
-  console.log(process.env.NEXT_PUBLIC_BASE_URL)
+  console.log(process.env.NEXT_PUBLIC_BASE_URL);
   const handleSubmit = (values) => {
-    axios.post(`${baseURL}/api/inquiries`,values).then((res)=>{
-      console.log(res);
-      if(res.status === 201){
-        toast.success('We Will Contact Soon !!');
-        setTimeout(()=>{
-            window.location.reload()
-        },[2000])
-      }
-    }).catch((err)=>{
+    setLoading(true)
+    axios
+      .post(`${baseURL}/api/inquiries`, values)
+      .then((res) => {
+        console.log(res);
+        if (res.status === 201) {
+          setLoading(false);
+          toast.success("We Will Contact Soon !!");
+          // setTimeout(() => {
+          //   window.location.reload();
+          // }, [2000]);
+        }
+      })
+      .catch((err) => {
         console.log(err);
-    })
+      });
     // Here you can send data to the server or perform other actions
   };
   return (
     <>
       <div className="py-[50px] relative">
-        <Toaster/>
+        <Toaster />
         <div className="absolute bottom-0 h-auto max-lg:z-[100] max-lg:w-[300px] max-[562px]:hidden">
           <Image
             src={"/assets/images/footer-1.png"}
@@ -162,8 +169,9 @@ const ContactForm = () => {
                 lastName: "",
                 email: "",
                 contactNumber: "",
+                weddingDate:"",
                 address: "",
-                plans: "",
+                plan: "",
               }}
               validationSchema={validationSchema}
               onSubmit={handleSubmit}
@@ -227,6 +235,20 @@ const ContactForm = () => {
                 </div>
                 <div className="relative pb-4">
                   <Field
+                    type="date"
+                    id="weddingDate"
+                    name="weddingDate"
+                    placeholder="Wedding Date"
+                    className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                  <ErrorMessage
+                    name="weddingDate"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="relative pb-4">
+                  <Field
                     type="text"
                     id="address"
                     name="address"
@@ -241,21 +263,21 @@ const ContactForm = () => {
                 </div>
                 <div className="mb-4">
                   <label
-                    htmlFor="plans"
+                    htmlFor="plan"
                     className="block text-gray-700 text-sm font-bold mb-2"
                   >
-                    Select Plan:
+                    Select Plans:
                   </label>
                   <Field
                     as="select"
-                    id="plans"
-                    name="plans"
+                    id="plan"
+                    name="plan"
                     className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   >
                     <option value="">Select a plan</option>
-                    <option value="basic">Basic</option>
-                    <option value="premium">Advance</option>
-                    <option value="destination">Luxury</option>
+                    <option value="Basic">Basic Plan</option>
+                    <option value="Premium">Standard Plan</option>
+                    <option value="Destination">Luxury Plan</option>
                   </Field>
                   <ErrorMessage
                     name="plans"
@@ -265,11 +287,18 @@ const ContactForm = () => {
                 </div>
                 <div className="flex items-center justify-center pt-3">
                   <button
+                  disabled={loading === true}
+                    // onClick={()=>{setLoading(true)}}
                     style={{ transition: "all 0.5s" }}
-                    className="bg-[#86a0b6] hover:bg-[#002642] text-white font-bold py-[15px] px-[40px] focus:outline-none focus:shadow-outline"
+                    className={loading ? "Submit-btn btn--loading  hover:bg-[#fff] hover:text-[#002642] hover:border-[#002642] border-2 hover:rounded-lg bg-[#002642] text-white font-bold py-[15px] px-[40px] focus:outline-none focus:shadow-outline" : "Submit-btn  hover:bg-[#fff] hover:text-[#002642] hover:border-[#002642] border-2 hover:rounded-lg bg-[#002642] text-white font-bold py-[15px] px-[40px] focus:outline-none focus:shadow-outline"}
                     type="submit"
                   >
                     Submit
+                    <span>
+                      <b></b>
+                      <b></b>
+                      <b></b>
+                    </span>
                   </button>
                 </div>
               </Form>

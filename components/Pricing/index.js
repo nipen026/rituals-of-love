@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { GiTwirlyFlower } from "react-icons/gi";
 
 const Pricing = () => {
@@ -24,6 +25,7 @@ const Pricing = () => {
           <div className="w-[100px] h-[1px] bg-[#738ea5]"></div>
         </div>
         <div className="grid  grid-cols-3 max-[1024px]:grid-cols-1 max-[952px]:grid-cols-1 gap-4 pt-[50px] p-4">
+        <Link href={'/Contactus'}>
           <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-5 animate__animated wow animate__bounceInUp">
             <div className="absolute -top-[50px] left-[35%] max-lg:left-[42%] max-[562px]:left-[35%]  w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
@@ -48,15 +50,20 @@ const Pricing = () => {
                   {" "}
                   Catering Services
                 </li>
-                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[5px]">
                   Photography - ( 2 Photographers)
                 </li>
-                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                <li className="text-[14px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                  (1 Photographer -  1 Videographer)
+                </li>
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[120px]">
                   Invitation Cards
                 </li>
               </ul>
             </div>
           </div>
+          </Link>
+          <Link href={'/Contactus'}>
           <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10 animate__animated wow animate__bounceInUp">
             <div className="absolute -top-[50px] left-[35%] max-lg:left-[42%] max-[562px]:left-[35%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
@@ -81,8 +88,11 @@ const Pricing = () => {
                   {" "}
                   Catering Services
                 </li>
-                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
-                  Photography - ( 4 Photographers)
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[5px]">
+                  Photography -  4 Photographers
+                </li>
+                <li className="text-[14px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                 (Photographer - Videographer )<br/>  (Cinamtic Videographer -  Candid Photographer)
                 </li>
                 <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
                   Invitation Cards
@@ -96,7 +106,8 @@ const Pricing = () => {
               </ul>
             </div>
           </div>
-          <div className="border-2 relative rounded-lg text-white p-4 max-[1024px]:mt-10 animate__animated wow animate__bounceInUp">
+          </Link>
+          <div className="border-2 bg-[#f5f5f5] relative rounded-lg text-white p-4 max-[1024px]:mt-10 animate__animated wow animate__bounceInUp">
             <div className="absolute -top-[50px] left-[35%]  max-[562px]:left-[35%] max-lg:left-[42%] w-[100px] h-[100px] bg-white shadow-round rounded-full p-1">
               <Image
                 src={"/assets/images/img-2.jpg"}
@@ -110,7 +121,10 @@ const Pricing = () => {
                 LUXURY PACKAGES
               </h4>
               <p className="text-[#7b7b7b] text-[14px] pt-1 text-center">
-                (DESTINATION WIBES)
+                DESTINATION VIBES
+              </p>
+              <p className="text-[#7b7b7b] text-[14px] pt-1 text-center">
+                ( Comming Soon - This Packege now not available )
               </p>
             </div>
             <div className="py-[20px]">
