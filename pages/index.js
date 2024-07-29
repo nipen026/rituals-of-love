@@ -36,7 +36,7 @@ export default function Home() {
     <main className={"overflow-hidden"}>
       <WhatsAppButton/>
       <Header />
-      <Banner title={'Planning Your Everlasting Memories'}/>
+      <Banner title={'Planning Your Everlasting Memories with Rituals of love'}/>
       <Description />
       <Services />
       <Celebrate />

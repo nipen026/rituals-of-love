@@ -7,6 +7,7 @@ import Provide from "@/components/Provide";
 import Pricing from "@/components/Pricing";
 import Footer from "@/common/Footer";
 import { useEffect } from "react";
+import WhyChoose from "@/components/WhyChoose";
 const About = () =>{
     useEffect(() => {
         const initWOW = async () => {
@@ -24,6 +25,7 @@ const About = () =>{
         <Header/>
         <Banner title="About Our Services"/>
         <AboutBanner/>
+        <WhyChoose/>
         <Provide/>
         <Pricing/>
         <Footer/>

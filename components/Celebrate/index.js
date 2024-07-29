@@ -11,7 +11,7 @@ const Celebrate = () =>{
                         <Image src={'/assets/images/contact-flower.png'} width={100} height={100} alt="flowrr"/>
                     </div>
                     <div className="animate__lightSpeedInLeft animate__animated wow">
-                        <h3 className="text-white text-[50px] max-[1024px]:text-[36px] font-bold text-center my-3">Lets Celebrate Your Love</h3>
+                        <h3 className="text-white text-[50px] max-[1024px]:text-[36px] font-bold text-center my-3">Lets Celebrate With Rituals of love</h3>
                     </div>
                     <div className="text-center wow animate__jackInTheBox animate__animated" >
                         <Link href={'/Contactus'}>
