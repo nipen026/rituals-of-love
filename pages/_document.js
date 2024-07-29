@@ -53,7 +53,7 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Rituals of Love",
-              "url": "https://www.rituals-of-love.cin",
+              "url": "https://www.rituals-of-love.in",
               "logo": "https://www.rituals-of-love.in/_next/image?url=%2Fassets%2Fimages%2Fmain-logo.png&w=128&q=75",
               "sameAs": [
                 "https://www.facebook.com/ritualsoflove",
