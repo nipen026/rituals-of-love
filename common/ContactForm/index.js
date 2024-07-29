@@ -275,9 +275,9 @@ const ContactForm = () => {
                     className="w-full bg-transparent bg-opacity-50 border-b-2 border-gray-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   >
                     <option value="">Select a plan</option>
-                    <option value="Basic">Basic</option>
-                    <option value="Premium">Advanced</option>
-                    <option value="Destination">Luxury</option>
+                    <option value="Basic">Basic Plan</option>
+                    <option value="Premium">Standard Plan</option>
+                    <option value="Destination">Luxury Plan</option>
                   </Field>
                   <ErrorMessage
                     name="plans"

@@ -41,13 +41,13 @@ const Footer = () => {
                   <a className=" text-gray-600 hover:text-gray-800">Would you have any enquiries.Please feel free to contuct us</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><MdEmail/> info.ritualsoflove@gmail.com</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><MdEmail/> info.ritualsoflove@gmail.com</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoCall/> +91 84698-38559</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoCall/> +91 84698-38559</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800"><IoLocation /> Surat , Gujrat , India</a>
+                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoLocation /> Surat , Gujrat , India</a>
                 </li>
               </nav>
             </div>
