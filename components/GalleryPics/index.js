@@ -32,7 +32,7 @@ const GalleryPics = () => {
                 loading="true"
               />
             </div>
-            <div className="h-[200px] w-[300px] max-[1024px]:w-full my-3 animate__flipInY animate__animated wow">
+            <div className="h-[200px] max-xl:w-[300px] max-[1024px]:w-full my-3 animate__flipInY animate__animated wow">
               <img
                 className="h-full w-full max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-2.jpg"
@@ -66,7 +66,7 @@ const GalleryPics = () => {
                 loading="true"
               />
             </div>
-            <div className="h-[300px] max-[1024px]:w-full animate__flipInY animate__animated wow">
+            <div className="h-[300px] w-full animate__flipInY animate__animated wow">
               <img
                 className=" object-cover h-full  max-w-full rounded-lg"
                 src="/assets/images/harshil-2.JPG"
