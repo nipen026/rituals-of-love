@@ -33,9 +33,9 @@ const ContactForm = () => {
         if (res.status === 201) {
           setLoading(false);
           toast.success("We Will Contact Soon !!");
-          // setTimeout(() => {
-          //   window.location.reload();
-          // }, [2000]);
+          setTimeout(() => {
+            window.location.reload();
+          }, [2000]);
         }
       })
       .catch((err) => {
@@ -234,6 +234,12 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="relative pb-4">
+                <label
+                    htmlFor="plan"
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                  >
+                    Wedding Date:
+                  </label>
                   <Field
                     type="date"
                     id="weddingDate"
