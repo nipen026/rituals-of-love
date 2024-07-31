@@ -8,7 +8,7 @@ const Celebrate = () =>{
             <div className="bg-contact">
                 <div className="flex justify-center items-center flex-col h-full">
                     <div className="flex justify-center animate__rollIn animate__animated wow">
-                        <Image src={'/assets/images/contact-flower.png'} width={100} height={100} alt="flowrr"/>
+                        <Image src={'/assets/images/contact-flower.png'} width={100} height={100} alt="wedding flower"/>
                     </div>
                     <div className="animate__lightSpeedInLeft animate__animated wow">
                         <h3 className="text-white text-[50px] max-[1024px]:text-[36px] font-bold text-center my-3">Lets Celebrate With Rituals of love</h3>
