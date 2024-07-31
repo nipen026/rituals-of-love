@@ -21,6 +21,7 @@ const AboutBanner = () => {
                   <img
                     src="/assets/images/vatsal-1.JPG"
                     className="w-full h-full object-cover"
+                    alt="best event planners"
                   />
                 </div>
               </div>
@@ -31,6 +32,7 @@ const AboutBanner = () => {
                   src={"/assets/images/thumb.png"}
                   width={"100"}
                   height={"100"}
+                  alt="wedding planners flower"
                 />
               </div>
               <div>

@@ -90,7 +90,7 @@ const Provide = () => {
                   width={"300"}
                   height={"200"}
                   className="object-cover w-full h-full"
-                  alt="provide-1"
+                  alt="india best wedding planner"
                 />
                 <div className="w-[80%] absolute top-[35%] left-[10%] bg-[rgba(255,255,255,0.8)] p-5 rounded-lg">
                   <div className="flex items-center justify-center gap-4 ">

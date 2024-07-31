@@ -17,6 +17,7 @@ const Description = () => {
                 <img
                   src="/assets/images/dharmik-1.JPG"
                   className="w-full h-full object-cover"
+                  alt="wedding planners in india"
                 />
               </div>
               <div className="wow bg-description-image-2 animate__animated wow   animate__fadeIn" >
@@ -24,6 +25,7 @@ const Description = () => {
                   <img
                     src="/assets/images/dharmik-2.JPG"
                     className="w-full h-full object-cover"
+                    alt="wedding planner"
                   />
                 </div>
               </div>
@@ -31,7 +33,7 @@ const Description = () => {
           </div>
           <div className=" max-[952px]:w-full">
             <div data-aos="fade-up">
-                <Image src={'/assets/images/thumb.png'} width={'100'} height={'100'}/>
+                <Image src={'/assets/images/thumb.png'} width={'100'} height={'100'} alt="thumb"/>
             </div>
             <div>
                 <h2 className="text-[40px] py-5 font-bold text-[#002642] animate__animated wow   animate__flipInX">
