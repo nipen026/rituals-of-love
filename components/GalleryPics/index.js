@@ -28,7 +28,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full object-cover  rounded-lg"
                 src="/assets/images/sahil-1.jpg"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -36,7 +36,7 @@ const GalleryPics = () => {
               <img
                 className="h-full w-full max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-2.jpg"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -44,7 +44,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full object-cover rounded-lg"
                 src="/assets/images/sahil-3.jpg"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -54,7 +54,7 @@ const GalleryPics = () => {
               <img
                 className="w-full object-cover h-full rounded-lg"
                 src="/assets/images/harshil-1.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -62,7 +62,7 @@ const GalleryPics = () => {
               <img
                 className="h-full object-cover max-w-full rounded-lg"
                 src="/assets/images/harshil-3.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -70,7 +70,7 @@ const GalleryPics = () => {
               <img
                 className=" object-cover h-full  max-w-full rounded-lg"
                 src="/assets/images/harshil-2.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -80,7 +80,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/dharmik-1.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -88,7 +88,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/dharmik-3.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -96,7 +96,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/dharmik-2.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -106,7 +106,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/vatsal-1.JPG"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -114,7 +114,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/vatsal-2.jpeg"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>
@@ -122,7 +122,7 @@ const GalleryPics = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/images/vatsal-3.jpeg"
-                alt="gallery-images"
+                alt="event planner in india"
                 loading="true"
               />
             </div>

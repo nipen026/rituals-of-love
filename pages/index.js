@@ -10,6 +10,7 @@ import Celebrate from "@/components/Celebrate";
 import Footer from "@/common/Footer";
 import { useEffect } from "react";
 import WhatsAppButton from "@/common/WhatsAppButton";
+import Head from "next/head";
 
 export default function Home() {
   // useEffect(() => {
@@ -33,6 +34,18 @@ export default function Home() {
     initWOW();
   }, []);
   return (
+    <>
+    <Head>
+      <title>Best Wedding Planners in India – Rituals of love</title>
+      <meta
+          name="description"
+          content="Discover the best wedding planners in India with Rituals of love. We create unforgettable weddings with personalized planning and meticulous attention to detail."
+        />
+         <meta
+          name="keywords"
+          content="Planning your everlasting memories, day memorable , Rituals of love , Photography , Fine Dining , Decorations , Anchor , Place , Invitation Card , Lets Celebrate"
+        />
+    </Head>
     <main className={"overflow-hidden"}>
       <WhatsAppButton/>
       <Header />
@@ -42,5 +55,6 @@ export default function Home() {
       <Celebrate />
       <Footer/>
     </main>
+    </>
   );
 }
