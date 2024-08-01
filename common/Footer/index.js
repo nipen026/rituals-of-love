@@ -60,24 +60,24 @@ const Footer = () => {
               <div className="grid grid-cols-3">
                 <Link href={'/Gallery'}>
                 <div className="w-[60px] h-[60px]">
-                  <Image src={'/assets/images/dharmik-1.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                  <Image src={'/assets/images/dharmik-1.JPG'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
                 </div>
                 </Link>
                 <Link href={'/Gallery'}>
                 <div className="w-[60px] h-[60px]">
-                  <Image src={'/assets/images/dharmik-2.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                  <Image src={'/assets/images/dharmik-2.JPG'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
                 </div>
                 </Link>
                 <Link href={'/Gallery'}>
                 <div className="w-[60px] h-[60px]">
-                  <Image src={'/assets/images/dharmik-3.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                  <Image src={'/assets/images/dharmik-3.JPG'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
                 </div>
                 </Link>
               </div>
               <div className="grid grid-cols-3 mt-4">
               <Link href={'/Gallery'}>
                 <div className="w-[60px] h-[60px]">
-                  <Image src={'/assets/images/vatsal-1.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                  <Image src={'/assets/images/vatsal-1.JPG'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
                 </div>
                 </Link>
                 <Link href={'/Gallery'}>
