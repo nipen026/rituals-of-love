@@ -94,6 +94,11 @@ export default function Document() {
               `,
           }}
         ></script>
+        
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -113,10 +118,6 @@ export default function Document() {
         <noscript><img height="1" width="1" style={{ display: 'none' }}
           src="https://www.facebook.com/tr?id=1125041155228455&ev=PageView&noscript=1"
         /></noscript>
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
       </body>
     </Html>
   );
