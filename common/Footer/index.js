@@ -2,6 +2,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall,IoLocation  } from "react-icons/io5";
 import Image from "next/image";
 import { IoLogoWhatsapp } from "react-icons/io";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -52,6 +53,45 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
+            <div className="xl:w-1/3 hidden xl:block w-full px-4">
+              <h2 className=" text-[20px] font-semibold text-[#002642]  mb-3">
+              Our memories
+              </h2>
+              <div className="grid grid-cols-3">
+                <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/dharmik-1.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+                <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/dharmik-2.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+                <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/dharmik-3.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+              </div>
+              <div className="grid grid-cols-3 mt-4">
+              <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/vatsal-1.jpg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+                <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/vatsal-2.jpeg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+                <Link href={'/Gallery'}>
+                <div className="w-[60px] h-[60px]">
+                  <Image src={'/assets/images/vatsal-3.jpeg'} className="w-full h-full object-cover rounded-lg" width={60} height={60} alt="wedding planners memories"/>
+                </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
         <div className="bg-gray-100">
@@ -83,7 +123,7 @@ const Footer = () => {
               <a target="_blank" href="https://wa.me/+918469838559?text=Hello%20I%20am%20intersted%20in%20your%20sevices" className="ml-3 text-[20px] text-gray-500">
                 <IoLogoWhatsapp/>
               </a>
-              <a className="ml-3 text-gray-500">
+              <a href="https://www.instagram.com/event_planner_in_india/" className="ml-3 text-gray-500">
                 <svg
                   fill="none"
                   stroke="currentColor"

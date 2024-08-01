@@ -28,7 +28,7 @@ const Header = () =>{
                 <div className="max-[1024px]:hidden">
                     <ul className="flex gap-3">
                         <li className="text-[20px] text-[#86a0b6]"><a href="https://www.facebook.com/profile.php?id=61563268825119"><FaFacebook/></a></li>
-                        <li className="text-[20px] text-[#86a0b6]"><a href="/"><RiInstagramFill/></a></li>
+                        <li className="text-[20px] text-[#86a0b6]"><a href="https://www.instagram.com/event_planner_in_india/"><RiInstagramFill/></a></li>
                         <li className="text-[20px] text-[#86a0b6]"><a href="https://wa.me/+918469838559?text=Hello%20I%20am%20intersted%20in%20your%20sevices" target="_blank"><RiWhatsappFill/></a></li>
                     </ul>
                 </div>
