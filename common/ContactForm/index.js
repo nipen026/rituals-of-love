@@ -5,9 +5,11 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 const ContactForm = () => {
-  const [loading,setLoading] = useState(false)
+  const [loading,setLoading] = useState(false);
+  const router = useRouter()
   const baseURL = process.env.NEXT_PUBLIC_API_BASE_URL;
   const validationSchema = Yup.object({
     firstName: Yup.string().required("First Name is required"),
@@ -35,6 +37,7 @@ const ContactForm = () => {
           toast.success("We Will Contact Soon !!");
           setTimeout(() => {
             window.location.reload();
+            router.push('/')
           }, [2000]);
         }
       })
