@@ -47,6 +47,15 @@ const Sidebar = () => {
             </li>
             <li
               className={
+                router.pathname === "/blog"
+                  ? "font-[600] text-[#86a0b6]"
+                  : "font-[600] text-[#282C35] hover:text-[#86a0b6]"
+              }
+            >
+              <Link href={"/blog"}>Blog</Link>
+            </li>
+            <li
+              className={
                 router.pathname === "/Contactus"
                   ? "font-[600] text-[#86a0b6]"
                   : "font-[600] text-[#282C35] hover:text-[#86a0b6]"

@@ -1,0 +1,28 @@
+.blog-wrapper{
+    padding: 20px 0px;
+    color: #002642;
+}
+.blog-wrapper h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.blog-wrapper h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.blog-wrapper h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.blog-wrapper p{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.blog-wrapper li{
+    list-style: inside;
+    font-size: 18px;
+    margin: 10px 0px;
+}

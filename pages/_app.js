@@ -2,6 +2,7 @@ import "@/styles/globals.css"
 import "@/styles/fonts.css";
 import '@/styles/loader.css';
 import '@/styles/sidebar.css';
+import '@/styles/blog.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import 'animate.css/animate.min.css';
