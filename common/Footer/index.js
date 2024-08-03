@@ -30,6 +30,9 @@ const Footer = () => {
                   <a href="/Gallery" className="text-gray-600 hover:text-gray-800">Our Gallery</a>
                 </li>
                 <li className="pb-2">
+                  <a href="/blog" className="text-gray-600 hover:text-gray-800">Blog</a>
+                </li>
+                <li className="pb-2">
                   <a href="Contactus" className="text-gray-600 hover:text-gray-800">Contact Us</a>
                 </li>
               </nav>
