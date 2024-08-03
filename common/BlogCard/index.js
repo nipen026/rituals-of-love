@@ -11,7 +11,7 @@ const BlogCard = () => {
               const backgroundImageClass = `url('/assets/images/blog-${index+1}.jpg')`
               return (
                 <>
-                  <div className="p-4 lg:w-1/3" key={index}>
+                  <div className="p-4 lg:w-1/3" key={index}  data-aos="flip-left">
                     <div
                     style={{backgroundImage:backgroundImageClass}}
                       className={`h-full  bg-opacity-75 bg-cover px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative`}

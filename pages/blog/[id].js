@@ -32,9 +32,11 @@ const BlogItem = () =>{
           content={result?.keyword}
         />
         </Head>
+        <div className="overflow-hidden">
         <Header/>
         <BlogPageCom id={id}/>
         <Footer/>
+        </div>
         </>
     )
 }

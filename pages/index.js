@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Cedarville_Cursive } from "next/font/google";
 import Header from "@/common/Header";
 import Banner from "@/common/Banner";
 import "slick-carousel/slick/slick.css";
