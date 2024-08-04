@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ContactForm from "@/common/ContactForm";
 import Footer from "@/common/Footer";
 import Head from "next/head";
+import WhatsAppButton from "@/common/WhatsAppButton";
 const ConatactUs = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const ConatactUs = () => {
         />
       </Head>
       <div className="overflow-hidden">
+        <WhatsAppButton/>
         <Header />
         <Banner title="Contact Our teams" />
         <ContactForm />
