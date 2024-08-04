@@ -6,6 +6,7 @@ import ContactForm from "@/common/ContactForm";
 import Footer from "@/common/Footer";
 import Head from "next/head";
 import WhatsAppButton from "@/common/WhatsAppButton";
+import Pricing from "@/components/Pricing";
 const ConatactUs = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const ConatactUs = () => {
         <WhatsAppButton/>
         <Header />
         <Banner title="Contact Our teams" />
+        <Pricing/>
         <ContactForm />
         <Footer />
       </div>
