@@ -43,16 +43,16 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li className="pb-2">
-                  <a className=" text-gray-600 hover:text-gray-800">Would you have any enquiries.Please feel free to contuct us</a>
+                  <a href='/Contactus' className=" text-gray-600 hover:text-gray-800">Would you have any enquiries.Please feel free to contuct us</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><MdEmail/> info.ritualsoflove@gmail.com</a>
+                  <a href="/Contactus" className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><MdEmail/> info.ritualsoflove@gmail.com</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoCall/> +91 84698-38559</a>
+                  <a href="https://wa.me/+918469838559?text=Hello%20I%20am%20intersted%20in%20your%20sevices" className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoCall/> +91 84698-38559</a>
                 </li>
                 <li className="pb-2">
-                  <a className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoLocation /> Surat , Gujrat , India</a>
+                  <a href="/Contactus" className="flex items-center gap-2 text-gray-600 hover:text-gray-800 max-lg:justify-center"><IoLocation /> Surat , Gujrat , India</a>
                 </li>
               </nav>
             </div>

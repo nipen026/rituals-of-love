@@ -9,6 +9,7 @@ import Footer from "@/common/Footer";
 import { useEffect } from "react";
 import WhyChoose from "@/components/WhyChoose";
 import Head from "next/head";
+import WhatsAppButton from "@/common/WhatsAppButton";
 const About = () =>{
     useEffect(() => {
         const initWOW = async () => {
@@ -31,6 +32,7 @@ const About = () =>{
         />
         </Head>
         <div className="overflow-hidden">
+        <WhatsAppButton/>
         <Header/>
         <Banner title="About Our Services"/>
         <AboutBanner/>
