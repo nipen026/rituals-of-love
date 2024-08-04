@@ -41,7 +41,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(1)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">
+                <h3 className="text-[#002642] text-[18px] max-md:text-[13px]  font-semibold">
                   Experienced Wedding Planners
                 </h3>
                 <div>
@@ -71,7 +71,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(2)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">
+                <h3 className="text-[18px] text-[#002642] max-md:text-[13px]  font-semibold">
                   Comprehensive Wedding Services
                 </h3>
                 <div>
@@ -99,7 +99,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(3)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">
+                <h3 className="text-[18px] text-[#002642] max-md:text-[13px]  font-semibold">
                   Customizable Wedding Packages:
                 </h3>
                 <div>
@@ -126,7 +126,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(4)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">
+                <h3 className="text-[18px] text-[#002642] max-md:text-[13px]  font-semibold">
                   Personalized Approach:
                 </h3>
                 <div>
@@ -153,7 +153,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(5)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">Destination Weddings</h3>
+                <h3 className="text-[18px] text-[#002642] max-md:text-[13px]  font-semibold">Destination Weddings</h3>
                 <div>
                   <span
                     className={`text-lg transition-all block ${
@@ -178,7 +178,7 @@ const WhyChoose = () => {
                 onClick={() => toggleAccordion(6)}
                 className="w-full flex justify-between items-center p-3"
               >
-                <h3 className="text-[18px] max-md:text-[13px]  font-semibold">Attention to Detail</h3>
+                <h3 className="text-[18px] text-[#002642] max-md:text-[13px]  font-semibold">Attention to Detail</h3>
                 <div>
                   <span
                     className={`text-lg transition-all block ${
