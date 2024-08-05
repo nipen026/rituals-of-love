@@ -36,7 +36,7 @@ const ContactForm = () => {
           setLoading(false);
           toast.success("We Will Contact Soon !!");
           setTimeout(() => {
-            window.location.reload();
+            // window.location.reload();
             router.push('/')
           }, [2000]);
         }
