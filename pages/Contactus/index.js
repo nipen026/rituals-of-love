@@ -27,8 +27,8 @@ const ConatactUs = () => {
         <WhatsAppButton/>
         <Header />
         <Banner title="Contact Our teams" />
-        <Pricing/>
         <ContactForm />
+        <Pricing/>
         <Footer />
       </div>
     </>
