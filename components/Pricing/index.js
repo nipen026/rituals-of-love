@@ -56,9 +56,13 @@ const Pricing = () => {
                 <li className="text-[14px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
                   (1 Photographer -  1 Videographer)
                 </li>
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                  Sound
+                </li>
                 <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[120px]">
                   Invitation Cards
                 </li>
+                
               </ul>
             </div>
           </div>
@@ -103,6 +107,9 @@ const Pricing = () => {
                 <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
                   Place
                 </li>
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                  Sound
+                </li>
               </ul>
             </div>
           </div>
@@ -146,6 +153,9 @@ const Pricing = () => {
                 </li>
                 <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
                   Place
+                </li>
+                <li className="text-[18px] justify-center text-[#7b7b7b] flex gap-3 items-center pb-[15px]">
+                  Sound
                 </li>
               </ul>
             </div>
