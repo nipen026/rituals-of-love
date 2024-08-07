@@ -43,6 +43,8 @@ export default function Home() {
           name="keywords"
           content="Planning your everlasting memories, day memorable , Rituals of love , Photography , Fine Dining , Decorations , Anchor , Place , Invitation Card , Lets Celebrate"
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3875385789969723"
+     crossorigin="anonymous"></script>
     </Head>
     <main className={"overflow-hidden"}>
       <WhatsAppButton/>
