@@ -23,8 +23,8 @@ export default function Home() {
   // }, []);
   useEffect(() => {
     const initWOW = async () => {
-      if (typeof window !== 'undefined') {
-        const WOW = (await import('wowjs')).WOW;
+      if (typeof window !== "undefined") {
+        const WOW = (await import("wowjs")).WOW;
         new WOW().init();
       }
     };
@@ -33,28 +33,47 @@ export default function Home() {
   }, []);
   return (
     <>
-    <Head>
-      <title>Best Wedding Planners in India – Rituals of love</title>
-      <meta
+      <Head>
+        <title>Best Wedding Planners in India – Rituals of love</title>
+        <meta
           name="description"
           content="Discover the best wedding planners in India with Rituals of love. We create unforgettable weddings with personalized planning and meticulous attention to detail."
         />
-         <meta
+        <meta
           name="keywords"
           content="Planning your everlasting memories, day memorable , Rituals of love , Photography , Fine Dining , Decorations , Anchor , Place , Invitation Card , Lets Celebrate"
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3875385789969723"
-     crossorigin="anonymous"></script>
-    </Head>
-    <main className={"overflow-hidden"}>
-      <WhatsAppButton/>
-      <Header />
-      <Banner title={'Planning Your Everlasting Memories with Rituals of love'}/>
-      <Description />
-      <Services />
-      <Celebrate />
-      <Footer/>
-    </main>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3875385789969723"
+          crossorigin="anonymous"
+        ></script>
+      </Head>
+      <main className={"overflow-hidden"}>
+        <WhatsAppButton />
+        <Header />
+        <Banner
+          title={"Planning Your Everlasting Memories with Rituals of love"}
+        />
+        <Description />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3875385789969723"
+          crossorigin="anonymous"
+        ></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-3875385789969723"
+          data-ad-slot="6305940620"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <Services />
+        <Celebrate />
+        <Footer />
+      </main>
     </>
   );
 }
